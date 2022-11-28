@@ -462,8 +462,9 @@ li {
 }
 .customers-logo:hover {
   fill: var(--colorC);
-  transition: all 0.28s;
-  outline-color: var(--colorC);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline-color: var(--main-blue);
   cursor: pointer;
 }
 
